@@ -1,6 +1,6 @@
-package com.hello.servlet.springmvc.basic.response;
+package org.hello.servlet.web.springmvc.basic.response;
 
-import com.hello.servlet.springmvc.basic.model.HelloData;
+import org.hello.servlet.web.springmvc.basic.model.HelloData;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

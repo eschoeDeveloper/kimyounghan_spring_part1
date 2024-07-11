@@ -1,4 +1,4 @@
-package com.hello.servlet.springmvc.basic;
+package org.hello.servlet.web.springmvc.basic;
 
 import org.springframework.web.bind.annotation.*;
 

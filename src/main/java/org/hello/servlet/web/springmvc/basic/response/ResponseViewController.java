@@ -1,4 +1,4 @@
-package com.hello.servlet.springmvc.basic.response;
+package org.hello.servlet.web.springmvc.basic.response;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;

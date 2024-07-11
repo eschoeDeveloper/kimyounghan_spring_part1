@@ -1,8 +1,7 @@
-package com.hello.servlet.springmvc.basic.request;
+package org.hello.servlet.web.springmvc.basic.request;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hello.servlet.springmvc.basic.model.HelloData;
+import org.hello.servlet.web.springmvc.basic.model.HelloData;
 import jakarta.servlet.ServletInputStream;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

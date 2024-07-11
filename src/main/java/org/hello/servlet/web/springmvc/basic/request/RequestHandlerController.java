@@ -1,4 +1,4 @@
-package com.hello.servlet.springmvc.basic.request;
+package org.hello.servlet.web.springmvc.basic.request;
 
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
