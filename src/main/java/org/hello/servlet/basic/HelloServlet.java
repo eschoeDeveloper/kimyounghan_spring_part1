@@ -1,0 +1,32 @@
+package org.hello.servlet.basic;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+
+@WebServlet(name = "helloServlet", urlPatterns = "/hello") // == @Contoller의 @RequestMapping
+public class HelloServlet extends HttpServlet {
+
+    @Override
+    protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+
+        System.out.println("HelloServlet.service");
+
+        // 요청 및 응답 객체
+        System.out.println("req = " + req);
+        System.out.println("res = " + res);
+
+        String username = req.getParameter("username");
+        System.out.println("username = " + username);
+
+        res.setContentType("text/plain");
+        res.setCharacterEncoding("utf-8");
+        res.getWriter().write("hello " + username + "!!");
+
+    }
+
+}
